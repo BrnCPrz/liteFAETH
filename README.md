@@ -59,6 +59,7 @@ The pipeline consists of three R scripts, to be executed in the following order:
 3. **`GNSW_FAETH_Score_Out.R`**
    - Aggregates per-SNP heritability data to calculate FAETH scores.
    - Outputs final scores to the `5_FAETH/` directory.
+   - File `pFAETH_Score.txt` contain FAETH scores calculated for all variants.
 
 ## Software Dependencies
 - **MTG2**: Used for variance component estimation ([MTG2 Documentation](https://sites.google.com/site/honglee0707/mtg2)).
