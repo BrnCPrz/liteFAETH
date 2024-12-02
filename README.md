@@ -33,11 +33,12 @@ Ensure all required files are placed in their respective directories. Below are 
    - GRMs must represent subsets of SNPs classified as "relevant" based on functional annotation maps.
    - **HD GRM**:
      - Derived from high-density SNP arrays or randomly selected SNPs (~600K SNPs as in Xiang et al., 2019).
-   - **GRM Files**: Standard format from [GCTA software](https://cnsgenomics.com/software/gcta/#Overview).
+   - **GRM Files**: Standard format from [GCTA software](https://cnsgenomics.com/software/gcta/#Overview).File must be named “G.grm.bin”. (Including the GRM file for HD map)
    - **Map File Format**:
      ```
      CHR | CHR_POS | 0 | POS(bp) | ALLELE_A | ALLELE_B
      ```
+     - File must be named “genotypes.bim”
 
 2. **Whole Genome Sequence Map (`WGS.bim`)**
    - **Directory**: `2_Data/`
